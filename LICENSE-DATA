@@ -1,0 +1,23 @@
+incognita-emu data licence
+==========================
+
+The code in this repository is licensed under Apache-2.0 (LICENSE). The data listed below are the project's own work
+and are licensed under the Creative Commons Attribution 4.0 International licence (CC BY 4.0,
+https://creativecommons.org/licenses/by/4.0/). Cite Incognita.
+
+Data covered by CC BY 4.0
+-------------------------
+- the release assets listed in MANIFEST.json   trained emulator models, engine-run extracts, sensitivities, MF33 demo,
+                                               engine input decks (lines_P)
+- incognita_emu/meta/                          run designs, nucleus lists and energy grids
+
+Third-party content inside those files, and its terms
+-----------------------------------------------------
+- RIPL (IAEA, RIPL-3 / RIPL-4): incognita_emu/meta/sfunc_ripl.csv holds measured neutron strength functions S0/S1 as
+  compiled in RIPL-3 and in the RIPL-4 resonance files (Mughabghab-2018 column). IAEA-NDS terms: scientific reuse with
+  attribution. Cite: R. Capote et al., Nucl. Data Sheets 110 (2009) 3107, and the RIPL-4 repository
+  (https://github.com/IAEA-NDS/RIPL-4).
+- TALYS (MIT licence, A. Koning et al.): the engine is a port. The TALYS structure database is not redistributed; users
+  download it (scripts/make_structure.sh).
+
+No evaluated nuclear-data library values (ENDF/B, JENDL, JEFF, TENDL, ...) are distributed in this repository.

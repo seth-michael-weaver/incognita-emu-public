@@ -1,0 +1,27 @@
+{
+ "n_all": 3744,
+ "n_queue": 3716,
+ "D": 16,
+ "names": [
+  "sA",
+  "dC",
+  "dPs",
+  "rsc",
+  "fE1",
+  "wE1",
+  "fM1",
+  "nv1",
+  "nrv",
+  "nav",
+  "nd1",
+  "m2c",
+  "pv1",
+  "av1",
+  "fvc",
+  "fbc"
+ ],
+ "fiss_idx": [
+  14,
+  15
+ ]
+}

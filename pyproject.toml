@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "incognita-emu"
+version = "0.1.0"
+license = {text = "Apache-2.0"}
+description = "Fast Gaussian-process emulators of the Incognita nuclear-reaction engine (a TALYS port): neutron cross sections of 185 nuclei as functions of 12 global model knobs"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "torch", "pandas", "pyarrow"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools.packages.find]
+include = ["incognita_emu*"]
+
+[tool.setuptools.package-data]
+incognita_emu = ["meta/*.json", "meta/*.csv"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["engine: runs the exact engine (needs INCOGNITA_EMU_ENGINE etc.; ~1 CPU-min)"]

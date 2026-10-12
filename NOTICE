@@ -1,0 +1,7 @@
+incognita-emu
+Copyright 2026 Incognita contributors
+
+The emulators reproduce the Incognita nuclear-reaction engine (repository `incognita`, release engine-2026-10), which is
+a port of TALYS-2 (https://github.com/arjankoning1/talys), Copyright (c) 2026 Arjan Koning, distributed under the MIT
+License; the engine repository reproduces that notice. TALYS: A.J. Koning, S. Hilaire, S. Goriely et al.
+The TALYS structure database is not redistributed here; scripts/make_structure.sh downloads it from the TALYS repository.

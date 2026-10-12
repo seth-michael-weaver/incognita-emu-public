@@ -1,0 +1,14 @@
+# large assets: fetched by scripts/fetch_assets.py (MANIFEST.json), never committed
+models/
+data/
+runs/
+*.pt
+*.npz
+!tests/fixtures/**/*.npz
+*.parquet
+__pycache__/
+*.egg-info/
+.pytest_cache/
+logs/
+cache/
+.venv/

@@ -1,0 +1,744 @@
+alphaomp 8
+cstrip a 0.3
+ctable 8 11 -0.08355
+ftable 8 11 0.93675 e1
+ftable 8 11 0.93675 m1
+ctable 8 12 -0.02433
+ftable 8 12 0.98438 e1
+ftable 8 12 0.98438 m1
+ctable 8 13 -0.16035
+ftable 8 13 0.89618 e1
+ftable 8 13 0.89618 m1
+ctable 8 14 -0.03405
+ftable 8 14 0.98141 e1
+ftable 8 14 0.98141 m1
+ctable 8 15 -0.39421
+ftable 8 15 0.77949 e1
+ftable 8 15 0.77949 m1
+ctable 8 16 -0.19790
+ftable 8 16 1.01733 e1
+ftable 8 16 1.01733 m1
+ctable 8 17 0.11107
+ftable 8 17 1.15264 e1
+ftable 8 17 1.15264 m1
+ctable 8 18 -0.36306
+ftable 8 18 1.02255 e1
+ftable 8 18 1.02255 m1
+ctable 8 19 0.42944
+ftable 8 19 1.07230 e1
+ftable 8 19 1.07230 m1
+ctable 8 20 -0.09372
+ftable 8 20 1.05634 e1
+ftable 8 20 1.05634 m1
+ctable 8 21 0.36169
+ftable 8 21 1.06883 e1
+ftable 8 21 1.06883 m1
+ctable 8 22 -0.00735
+ftable 8 22 0.98808 e1
+ftable 8 22 0.98808 m1
+ctable 8 23 -0.00067
+ftable 8 23 0.99960 e1
+ftable 8 23 0.99960 m1
+ctable 8 24 0.36646
+ftable 8 24 0.93182 e1
+ftable 8 24 0.93182 m1
+ctable 9 13 -0.01626
+ftable 9 13 0.98725 e1
+ftable 9 13 0.98725 m1
+ctable 9 14 -0.11336
+ftable 9 14 0.92353 e1
+ftable 9 14 0.92353 m1
+ctable 9 15 -0.02959
+ftable 9 15 0.98287 e1
+ftable 9 15 0.98287 m1
+ctable 9 16 -0.29774
+ftable 9 16 0.80176 e1
+ftable 9 16 0.80176 m1
+ctable 9 17 -0.19310
+ftable 9 17 1.02713 e1
+ftable 9 17 1.02713 m1
+ctable 9 18 -0.31034
+ftable 9 18 1.05778 e1
+ftable 9 18 1.05778 m1
+ctable 9 19 -0.29109
+ftable 9 19 1.07377 e1
+ftable 9 19 1.07377 m1
+ctable 9 20 -0.06535
+ftable 9 20 1.07377 e1
+ftable 9 20 1.07377 m1
+ctable 9 21 -0.18688
+ftable 9 21 1.13239 e1
+ftable 9 21 1.13239 m1
+ctable 9 22 0.08909
+ftable 9 22 1.12317 e1
+ftable 9 22 1.12317 m1
+ctable 9 23 0.07394
+ftable 9 23 1.08850 e1
+ftable 9 23 1.08850 m1
+ctable 9 24 0.27221
+ftable 9 24 1.05211 e1
+ftable 9 24 1.05211 m1
+ctable 9 25 0.31162
+ftable 9 25 1.01817 e1
+ftable 9 25 1.01817 m1
+ctable 9 26 -0.00000
+ftable 9 26 1.00000 e1
+ftable 9 26 1.00000 m1
+ctable 9 27 -0.00000
+ftable 9 27 1.00000 e1
+ftable 9 27 1.00000 m1
+ftable 9 28 1.07434 e1
+ftable 9 28 1.07434 m1
+ctable 9 29 0.00000
+ftable 9 29 1.00000 e1
+ftable 9 29 1.00000 m1
+ctable 10 15 -0.03933
+ftable 10 15 0.97129 e1
+ftable 10 15 0.97129 m1
+ctable 10 16 -0.02146
+ftable 10 16 0.98641 e1
+ftable 10 16 0.98641 m1
+ctable 10 17 -0.20987
+ftable 10 17 0.85461 e1
+ftable 10 17 0.85461 m1
+ctable 10 18 -0.10403
+ftable 10 18 1.00455 e1
+ftable 10 18 1.00455 m1
+ctable 10 19 -0.39495
+ftable 10 19 1.08111 e1
+ftable 10 19 1.08111 m1
+ctable 10 20 -0.15333
+ftable 10 20 1.04582 e1
+ftable 10 20 1.04582 m1
+ctable 10 21 0.04756
+ftable 10 21 1.12216 e1
+ftable 10 21 1.12216 m1
+ctable 10 22 -0.04313
+ftable 10 22 1.15264 e1
+ftable 10 22 1.15264 m1
+ctable 10 23 0.25117
+ftable 10 23 1.10043 e1
+ftable 10 23 1.10043 m1
+ctable 10 24 -0.00761
+ftable 10 24 1.11099 e1
+ftable 10 24 1.11099 m1
+ctable 10 25 0.15108
+ftable 10 25 1.06067 e1
+ftable 10 25 1.06067 m1
+ctable 10 26 0.19141
+ftable 10 26 1.03214 e1
+ftable 10 26 1.03214 m1
+ctable 10 27 0.00000
+ftable 10 27 1.00000 e1
+ftable 10 27 1.00000 m1
+ctable 10 28 0.60388
+ftable 10 28 1.03422 e1
+ftable 10 28 1.03422 m1
+ctable 10 29 0.00000
+ftable 10 29 1.00000 e1
+ftable 10 29 1.00000 m1
+ctable 10 30 0.13014
+ftable 10 30 1.00699 e1
+ftable 10 30 1.00699 m1
+ctable 10 31 0.00000
+ftable 10 31 1.00000 e1
+ftable 10 31 1.00000 m1
+ctable 11 17 -0.01148
+ftable 11 17 0.99306 e1
+ftable 11 17 0.99306 m1
+ctable 11 18 -0.14179
+ftable 11 18 0.91526 e1
+ftable 11 18 0.91526 m1
+ctable 11 19 -0.09088
+ftable 11 19 1.00997 e1
+ftable 11 19 1.00997 m1
+ctable 11 20 -0.32456
+ftable 11 20 1.10892 e1
+ftable 11 20 1.10892 m1
+ctable 11 21 -0.12444
+ftable 11 21 1.14978 e1
+ftable 11 21 1.14978 m1
+ctable 11 22 -0.00969
+ftable 11 22 1.02989 e1
+ftable 11 22 1.02989 m1
+ctable 11 23 -0.05610
+ftable 11 23 1.20275 e1
+ftable 11 23 1.20275 m1
+ctable 11 24 -0.03074
+ftable 11 24 1.18450 e1
+ftable 11 24 1.18450 m1
+ctable 11 25 0.00553
+ftable 11 25 1.22891 e1
+ftable 11 25 1.22891 m1
+ctable 11 26 0.03290
+ftable 11 26 1.10947 e1
+ftable 11 26 1.10947 m1
+ctable 11 27 0.00709
+ftable 11 27 1.04346 e1
+ftable 11 27 1.04346 m1
+ctable 11 28 0.01980
+ftable 11 28 1.02003 e1
+ftable 11 28 1.02003 m1
+ctable 11 29 -0.20843
+ftable 11 29 1.08136 e1
+ftable 11 29 1.08136 m1
+ctable 11 30 0.00003
+ftable 11 30 1.00003 e1
+ftable 11 30 1.00003 m1
+ctable 11 31 -0.06501
+ftable 11 31 1.26801 e1
+ftable 11 31 1.26801 m1
+ctable 11 32 0.00000
+ftable 11 32 1.00000 e1
+ftable 11 32 1.00000 m1
+ctable 12 19 -0.05413
+ftable 12 19 0.96581 e1
+ftable 12 19 0.96581 m1
+ctable 12 20 -0.04293
+ftable 12 20 1.00452 e1
+ftable 12 20 1.00452 m1
+ctable 12 21 -0.29965
+ftable 12 21 1.09504 e1
+ftable 12 21 1.09504 m1
+ctable 12 22 -0.07309
+ftable 12 22 1.03140 e1
+ftable 12 22 1.03140 m1
+ctable 12 23 -0.13377
+ftable 12 23 1.18516 e1
+ftable 12 23 1.18516 m1
+ctable 12 24 -0.09049
+ftable 12 24 1.11518 e1
+ftable 12 24 1.11518 m1
+ctable 12 25 0.07307
+ftable 12 25 1.26435 e1
+ftable 12 25 1.26435 m1
+ctable 12 26 0.01895
+ftable 12 26 1.13239 e1
+ftable 12 26 1.13239 m1
+ctable 12 27 0.21407
+ftable 12 27 1.09147 e1
+ftable 12 27 1.09147 m1
+ctable 12 28 0.07260
+ftable 12 28 1.09296 e1
+ftable 12 28 1.09296 m1
+ctable 12 29 0.21888
+ftable 12 29 1.03945 e1
+ftable 12 29 1.03945 m1
+ctable 12 30 0.19430
+ftable 12 30 1.05624 e1
+ftable 12 30 1.05624 m1
+ctable 12 31 0.00012
+ftable 12 31 1.00000 e1
+ftable 12 31 1.00000 m1
+ctable 12 32 -0.01392
+ftable 12 32 1.06067 e1
+ftable 12 32 1.06067 m1
+ctable 12 33 0.00007
+ftable 12 33 1.00002 e1
+ftable 12 33 1.00002 m1
+ctable 13 21 -0.03361
+ftable 13 21 1.00285 e1
+ftable 13 21 1.00285 m1
+ctable 13 22 -0.20354
+ftable 13 22 1.04520 e1
+ftable 13 22 1.04520 m1
+ctable 13 23 -0.08044
+ftable 13 23 1.01336 e1
+ftable 13 23 1.01336 m1
+ctable 13 24 -0.17722
+ftable 13 24 1.19891 e1
+ftable 13 24 1.19891 m1
+ctable 13 25 -0.10947
+ftable 13 25 1.11710 e1
+ftable 13 25 1.11710 m1
+ctable 13 26 -0.18249
+ftable 13 26 1.25127 e1
+ftable 13 26 1.25127 m1
+ctable 13 27 -0.14491
+ftable 13 27 1.14824 e1
+ftable 13 27 1.14824 m1
+ctable 13 28 -0.08174
+ftable 13 28 1.12164 e1
+ftable 13 28 1.12164 m1
+ctable 13 29 -0.11058
+ftable 13 29 1.11859 e1
+ftable 13 29 1.11859 m1
+ctable 13 30 -0.10043
+ftable 13 30 1.10043 e1
+ftable 13 30 1.10043 m1
+ctable 13 31 -0.06830
+ftable 13 31 1.11099 e1
+ftable 13 31 1.11099 m1
+ctable 13 32 0.07251
+ftable 13 32 1.18289 e1
+ftable 13 32 1.18289 m1
+ctable 13 33 -0.18339
+ftable 13 33 1.09744 e1
+ftable 13 33 1.09744 m1
+ctable 13 34 0.00180
+ftable 13 34 1.00070 e1
+ftable 13 34 1.00070 m1
+ctable 14 22 -0.01928
+ftable 14 22 1.00189 e1
+ftable 14 22 1.00189 m1
+ctable 14 23 -0.16319
+ftable 14 23 1.03618 e1
+ftable 14 23 1.03618 m1
+ctable 14 24 -0.05513
+ftable 14 24 1.01215 e1
+ftable 14 24 1.01215 m1
+ctable 14 25 -0.23047
+ftable 14 25 1.18023 e1
+ftable 14 25 1.18023 m1
+ctable 14 26 -0.06945
+ftable 14 26 1.02754 e1
+ftable 14 26 1.02754 m1
+ctable 14 27 -0.23506
+ftable 14 27 1.14544 e1
+ftable 14 27 1.14544 m1
+ctable 14 28 -0.00000
+ftable 14 28 1.00000 e1
+ftable 14 28 1.00000 m1
+ctable 14 29 -0.15595
+ftable 14 29 1.08554 e1
+ftable 14 29 1.08554 m1
+ctable 14 30 -0.01126
+ftable 14 30 1.06647 e1
+ftable 14 30 1.06647 m1
+ctable 14 31 0.03985
+ftable 14 31 1.06356 e1
+ftable 14 31 1.06356 m1
+ctable 14 32 0.02515
+ftable 14 32 1.05634 e1
+ftable 14 32 1.05634 m1
+ctable 14 33 0.14638
+ftable 14 33 0.98943 e1
+ftable 14 33 0.98943 m1
+ctable 14 34 -0.23481
+ftable 14 34 1.08258 e1
+ftable 14 34 1.08258 m1
+ctable 14 35 0.00097
+ftable 14 35 1.00012 e1
+ftable 14 35 1.00012 m1
+ctable 15 23 -0.01612
+ftable 15 23 1.00005 e1
+ftable 15 23 1.00005 m1
+ctable 15 24 -0.15796
+ftable 15 24 1.02447 e1
+ftable 15 24 1.02447 m1
+ctable 15 25 -0.04977
+ftable 15 25 1.00540 e1
+ftable 15 25 1.00540 m1
+ctable 15 26 -0.17241
+ftable 15 26 1.03776 e1
+ftable 15 26 1.03776 m1
+ctable 15 27 -0.07848
+ftable 15 27 1.01669 e1
+ftable 15 27 1.01669 m1
+ctable 15 28 -0.23839
+ftable 15 28 1.09266 e1
+ftable 15 28 1.09266 m1
+ctable 15 29 -0.11445
+ftable 15 29 1.02057 e1
+ftable 15 29 1.02057 m1
+ctable 15 30 -0.00000
+ftable 15 30 1.00000 e1
+ftable 15 30 1.00000 m1
+ctable 15 31 -0.24241
+ftable 15 31 1.01906 e1
+ftable 15 31 1.01906 m1
+ctable 15 32 -0.08802
+ftable 15 32 0.94978 e1
+ftable 15 32 0.94978 m1
+ctable 15 33 -0.17014
+ftable 15 33 1.00849 e1
+ftable 15 33 1.00849 m1
+ctable 15 34 -0.09264
+ftable 15 34 0.99755 e1
+ftable 15 34 0.99755 m1
+ctable 15 35 -0.34778
+ftable 15 35 1.01262 e1
+ftable 15 35 1.01262 m1
+ctable 15 36 -0.06254
+ftable 15 36 1.01660 e1
+ftable 15 36 1.01660 m1
+ctable 16 24 -0.00794
+ftable 16 24 0.99727 e1
+ftable 16 24 0.99727 m1
+ctable 16 25 -0.14102
+ftable 16 25 1.00706 e1
+ftable 16 25 1.00706 m1
+ctable 16 26 -0.03755
+ftable 16 26 1.00301 e1
+ftable 16 26 1.00301 m1
+ctable 16 27 -0.13800
+ftable 16 27 1.03255 e1
+ftable 16 27 1.03255 m1
+ctable 16 28 -0.04961
+ftable 16 28 1.00845 e1
+ftable 16 28 1.00845 m1
+ctable 16 29 -0.26617
+ftable 16 29 1.05918 e1
+ftable 16 29 1.05918 m1
+ctable 16 30 -0.06562
+ftable 16 30 1.01903 e1
+ftable 16 30 1.01903 m1
+ctable 16 31 -0.22038
+ftable 16 31 1.01641 e1
+ftable 16 31 1.01641 m1
+ctable 16 32 -0.12721
+ftable 16 32 1.00533 e1
+ftable 16 32 1.00533 m1
+ctable 16 33 0.01019
+ftable 16 33 1.01817 e1
+ftable 16 33 1.01817 m1
+ctable 16 34 -0.07631
+ftable 16 34 0.99755 e1
+ftable 16 34 0.99755 m1
+ctable 16 35 0.02350
+ftable 16 35 0.94205 e1
+ftable 16 35 0.94205 m1
+ctable 16 36 -0.23407
+ftable 16 36 0.96545 e1
+ftable 16 36 0.96545 m1
+ctable 16 37 -0.05562
+ftable 16 37 0.98137 e1
+ftable 16 37 0.98137 m1
+ctable 17 27 -0.03059
+ftable 17 27 1.00213 e1
+ftable 17 27 1.00213 m1
+ctable 17 28 -0.20423
+ftable 17 28 1.02528 e1
+ftable 17 28 1.02528 m1
+ctable 17 29 -0.04531
+ftable 17 29 1.00514 e1
+ftable 17 29 1.00514 m1
+ctable 17 30 -0.16278
+ftable 17 30 1.03350 e1
+ftable 17 30 1.03350 m1
+ctable 17 31 -0.08825
+ftable 17 31 1.01168 e1
+ftable 17 31 1.01168 m1
+ctable 17 32 -0.26271
+ftable 17 32 0.96812 e1
+ftable 17 32 0.96812 m1
+ctable 17 33 -0.17793
+ftable 17 33 1.00818 e1
+ftable 17 33 1.00818 m1
+ctable 17 34 -0.23395
+ftable 17 34 0.96940 e1
+ftable 17 34 0.96940 m1
+ctable 17 35 -0.22655
+ftable 17 35 0.99511 e1
+ftable 17 35 0.99511 m1
+ctable 17 36 -0.18287
+ftable 17 36 0.89205 e1
+ftable 17 36 0.89205 m1
+ctable 17 37 -0.38490
+ftable 17 37 0.89327 e1
+ftable 17 37 0.89327 m1
+ctable 17 38 -0.12827
+ftable 17 38 0.90306 e1
+ftable 17 38 0.90306 m1
+ctable 18 28 -0.01359
+ftable 18 28 0.99604 e1
+ftable 18 28 0.99604 m1
+ctable 18 29 -0.12328
+ftable 18 29 1.04371 e1
+ftable 18 29 1.04371 m1
+ctable 18 30 -0.02911
+ftable 18 30 1.00424 e1
+ftable 18 30 1.00424 m1
+ctable 18 31 -0.12091
+ftable 18 31 1.02124 e1
+ftable 18 31 1.02124 m1
+ctable 18 32 -0.05130
+ftable 18 32 1.00719 e1
+ftable 18 32 1.00719 m1
+ctable 18 33 -0.25636
+ftable 18 33 1.01911 e1
+ftable 18 33 1.01911 m1
+ctable 18 34 -0.10772
+ftable 18 34 0.99907 e1
+ftable 18 34 0.99907 m1
+ctable 18 35 -0.22224
+ftable 18 35 1.01704 e1
+ftable 18 35 1.01704 m1
+ctable 18 36 -0.10514
+ftable 18 36 0.96490 e1
+ftable 18 36 0.96490 m1
+ctable 18 37 -0.14596
+ftable 18 37 0.89815 e1
+ftable 18 37 0.89815 m1
+ctable 18 38 -0.15900
+ftable 18 38 0.89474 e1
+ftable 18 38 0.89474 m1
+ctable 18 39 0.01684
+ftable 18 39 0.92171 e1
+ftable 18 39 0.92171 m1
+ctable 19 31 -0.02853
+ftable 19 31 1.00245 e1
+ftable 19 31 1.00245 m1
+ctable 19 32 -0.09234
+ftable 19 32 1.00107 e1
+ftable 19 32 1.00107 m1
+ctable 19 33 -0.04631
+ftable 19 33 0.99991 e1
+ftable 19 33 0.99991 m1
+ctable 19 34 -0.21762
+ftable 19 34 1.00397 e1
+ftable 19 34 1.00397 m1
+ctable 19 35 -0.14382
+ftable 19 35 0.98471 e1
+ftable 19 35 0.98471 m1
+ctable 19 36 -0.29766
+ftable 19 36 0.91785 e1
+ftable 19 36 0.91785 m1
+ctable 19 37 -0.20831
+ftable 19 37 0.93465 e1
+ftable 19 37 0.93465 m1
+ctable 19 38 -0.33723
+ftable 19 38 0.82376 e1
+ftable 19 38 0.82376 m1
+ctable 19 39 -0.36804
+ftable 19 39 0.85784 e1
+ftable 19 39 0.85784 m1
+ctable 19 40 -0.24671
+ftable 19 40 0.94462 e1
+ftable 19 40 0.94462 m1
+ctable 20 34 -0.02985
+ftable 20 34 1.00505 e1
+ftable 20 34 1.00505 m1
+ctable 20 35 -0.17835
+ftable 20 35 1.01080 e1
+ftable 20 35 1.01080 m1
+ctable 20 36 -0.10007
+ftable 20 36 0.99760 e1
+ftable 20 36 0.99760 m1
+ctable 20 37 -0.32859
+ftable 20 37 0.92980 e1
+ftable 20 37 0.92980 m1
+ctable 20 38 -0.15247
+ftable 20 38 0.97412 e1
+ftable 20 38 0.97412 m1
+ftable 20 39 0.86072 e1
+ftable 20 39 0.86072 m1
+ctable 20 40 -0.26341
+ftable 20 40 0.85709 e1
+ftable 20 40 0.85709 m1
+ctable 20 41 -0.39329
+ftable 20 41 0.91421 e1
+ftable 20 41 0.91421 m1
+ctable 20 39 0.65052
+globalwtable n
+wtable 8 11 1.066500 e1
+wtable 8 12 1.066500 e1
+wtable 8 13 1.066500 e1
+wtable 8 14 1.066500 e1
+wtable 8 15 1.066500 e1
+wtable 8 16 1.066500 e1
+wtable 8 17 1.066500 e1
+wtable 8 18 1.066500 e1
+wtable 8 19 1.066500 e1
+wtable 8 20 1.066500 e1
+wtable 8 21 1.066500 e1
+wtable 8 22 1.066500 e1
+wtable 8 23 1.066500 e1
+wtable 8 24 1.066500 e1
+wtable 9 13 1.066500 e1
+wtable 9 14 1.066500 e1
+wtable 9 15 1.066500 e1
+wtable 9 16 1.066500 e1
+wtable 9 17 1.066500 e1
+wtable 9 18 1.066500 e1
+wtable 9 19 1.066500 e1
+wtable 9 20 1.066500 e1
+wtable 9 21 1.066500 e1
+wtable 9 22 1.066500 e1
+wtable 9 23 1.066500 e1
+wtable 9 24 1.066500 e1
+wtable 9 25 1.066500 e1
+wtable 9 26 1.066500 e1
+wtable 9 27 1.066500 e1
+wtable 9 28 1.066500 e1
+wtable 9 29 1.066500 e1
+wtable 10 15 1.066500 e1
+wtable 10 16 1.066500 e1
+wtable 10 17 1.066500 e1
+wtable 10 18 1.066500 e1
+wtable 10 19 1.066500 e1
+wtable 10 20 1.066500 e1
+wtable 10 21 1.066500 e1
+wtable 10 22 1.066500 e1
+wtable 10 23 1.066500 e1
+wtable 10 24 1.066500 e1
+wtable 10 25 1.066500 e1
+wtable 10 26 1.066500 e1
+wtable 10 27 1.066500 e1
+wtable 10 28 1.066500 e1
+wtable 10 29 1.066500 e1
+wtable 10 30 1.066500 e1
+wtable 10 31 1.066500 e1
+wtable 11 17 1.066500 e1
+wtable 11 18 1.066500 e1
+wtable 11 19 1.066500 e1
+wtable 11 20 1.066500 e1
+wtable 11 21 1.066500 e1
+wtable 11 22 1.066500 e1
+wtable 11 23 1.066500 e1
+wtable 11 24 1.066500 e1
+wtable 11 25 1.066500 e1
+wtable 11 26 1.066500 e1
+wtable 11 27 1.066500 e1
+wtable 11 28 1.066500 e1
+wtable 11 29 1.066500 e1
+wtable 11 30 1.066500 e1
+wtable 11 31 1.066500 e1
+wtable 11 32 1.066500 e1
+wtable 12 19 1.066500 e1
+wtable 12 20 1.066500 e1
+wtable 12 21 1.066500 e1
+wtable 12 22 1.066500 e1
+wtable 12 23 1.066500 e1
+wtable 12 24 1.066500 e1
+wtable 12 25 1.066500 e1
+wtable 12 26 1.066500 e1
+wtable 12 27 1.066500 e1
+wtable 12 28 1.066500 e1
+wtable 12 29 1.066500 e1
+wtable 12 30 1.066500 e1
+wtable 12 31 1.066500 e1
+wtable 12 32 1.066500 e1
+wtable 12 33 1.066500 e1
+wtable 13 21 1.066500 e1
+wtable 13 22 1.066500 e1
+wtable 13 23 1.066500 e1
+wtable 13 24 1.066500 e1
+wtable 13 25 1.066500 e1
+wtable 13 26 1.066500 e1
+wtable 13 27 1.066500 e1
+wtable 13 28 1.066500 e1
+wtable 13 29 1.066500 e1
+wtable 13 30 1.066500 e1
+wtable 13 31 1.066500 e1
+wtable 13 32 1.066500 e1
+wtable 13 33 1.066500 e1
+wtable 13 34 1.066500 e1
+wtable 14 22 1.066500 e1
+wtable 14 23 1.066500 e1
+wtable 14 24 1.066500 e1
+wtable 14 25 1.066500 e1
+wtable 14 26 1.066500 e1
+wtable 14 27 1.066500 e1
+wtable 14 28 1.066500 e1
+wtable 14 29 1.066500 e1
+wtable 14 30 1.066500 e1
+wtable 14 31 1.066500 e1
+wtable 14 32 1.066500 e1
+wtable 14 33 1.066500 e1
+wtable 14 34 1.066500 e1
+wtable 14 35 1.066500 e1
+wtable 15 23 1.066500 e1
+wtable 15 24 1.066500 e1
+wtable 15 25 1.066500 e1
+wtable 15 26 1.066500 e1
+wtable 15 27 1.066500 e1
+wtable 15 28 1.066500 e1
+wtable 15 29 1.066500 e1
+wtable 15 30 1.066500 e1
+wtable 15 31 1.066500 e1
+wtable 15 32 1.066500 e1
+wtable 15 33 1.066500 e1
+wtable 15 34 1.066500 e1
+wtable 15 35 1.066500 e1
+wtable 15 36 1.066500 e1
+wtable 16 24 1.066500 e1
+wtable 16 25 1.066500 e1
+wtable 16 26 1.066500 e1
+wtable 16 27 1.066500 e1
+wtable 16 28 1.066500 e1
+wtable 16 29 1.066500 e1
+wtable 16 30 1.066500 e1
+wtable 16 31 1.066500 e1
+wtable 16 32 1.066500 e1
+wtable 16 33 1.066500 e1
+wtable 16 34 1.066500 e1
+wtable 16 35 1.066500 e1
+wtable 16 36 1.066500 e1
+wtable 16 37 1.066500 e1
+wtable 16 38 1.066500 e1
+wtable 16 39 1.066500 e1
+wtable 16 40 1.066500 e1
+wtable 16 41 1.066500 e1
+wtable 17 27 1.066500 e1
+wtable 17 28 1.066500 e1
+wtable 17 29 1.066500 e1
+wtable 17 30 1.066500 e1
+wtable 17 31 1.066500 e1
+wtable 17 32 1.066500 e1
+wtable 17 33 1.066500 e1
+wtable 17 34 1.066500 e1
+wtable 17 35 1.066500 e1
+wtable 17 36 1.066500 e1
+wtable 17 37 1.066500 e1
+wtable 17 38 1.066500 e1
+wtable 17 39 1.066500 e1
+wtable 17 40 1.066500 e1
+wtable 17 41 1.066500 e1
+wtable 18 28 1.066500 e1
+wtable 18 29 1.066500 e1
+wtable 18 30 1.066500 e1
+wtable 18 31 1.066500 e1
+wtable 18 32 1.066500 e1
+wtable 18 33 1.066500 e1
+wtable 18 34 1.066500 e1
+wtable 18 35 1.066500 e1
+wtable 18 36 1.066500 e1
+wtable 18 37 1.066500 e1
+wtable 18 38 1.066500 e1
+wtable 18 39 1.066500 e1
+wtable 18 40 1.066500 e1
+wtable 18 41 1.066500 e1
+wtable 19 28 1.066500 e1
+wtable 19 29 1.066500 e1
+wtable 19 30 1.066500 e1
+wtable 19 31 1.066500 e1
+wtable 19 32 1.066500 e1
+wtable 19 33 1.066500 e1
+wtable 19 34 1.066500 e1
+wtable 19 35 1.066500 e1
+wtable 19 36 1.066500 e1
+wtable 19 37 1.066500 e1
+wtable 19 38 1.066500 e1
+wtable 19 39 1.066500 e1
+wtable 19 40 1.066500 e1
+wtable 19 41 1.066500 e1
+wtable 20 28 1.066500 e1
+wtable 20 29 1.066500 e1
+wtable 20 30 1.066500 e1
+wtable 20 31 1.066500 e1
+wtable 20 32 1.066500 e1
+wtable 20 33 1.066500 e1
+wtable 20 34 1.066500 e1
+wtable 20 35 1.066500 e1
+wtable 20 36 1.066500 e1
+wtable 20 37 1.066500 e1
+wtable 20 38 1.066500 e1
+wtable 20 39 1.066500 e1
+wtable 20 40 1.066500 e1
+wtable 20 41 1.066500 e1
+ftable 16 41 0.85207 e1
+ftable 16 41 0.85207 m1
+ftable 17 41 0.88635 e1
+ftable 17 41 0.88635 m1
+dwbaimag y
+cstrip t 0.990000
+cstrip h 0.990000
+avadjust t 1.2960
+awadjust t 1.2960
+avdadjust t 1.4345
+awdadjust t 1.4345
+avadjust h 1.2960
+awadjust h 1.2960
+avdadjust h 1.4338
+awdadjust h 1.4338

@@ -1,0 +1,133 @@
+{
+ "about": "Large files of incognita-emu, published as assets of this repository's GitHub release. Fetch with scripts/fetch_assets.py; sha256 of each downloaded file.",
+ "release": "v0.1.0",
+ "assets": [
+  {
+   "name": "models_default",
+   "file": "models-default.pt",
+   "dest": "models/default/models.pt",
+   "group": "core",
+   "size": 75687427,
+   "sha256": "6771bd72bbfce14d69f04e31c5cefba98f980add0d70622b551bdb5b625e7bf2",
+   "note": "Default emulators: 185 nuclei x 9 channels, 12 knobs, training floor 1e-3 mb"
+  },
+  {
+   "name": "models_legacy",
+   "file": "models-legacy.pt",
+   "dest": "models/legacy/models.pt",
+   "group": "core",
+   "size": 70243523,
+   "sha256": "6e311043c1c8e659dfc33e6782c524f44bfa32cca8ce5ce0f3909b514afc4cf8",
+   "note": "Older emulators (training floor 1e-5 mb); poorer heavy-nucleus (n,alpha) near threshold"
+  },
+  {
+   "name": "verify_unseen",
+   "file": "verify_unseen.npz",
+   "dest": "data/ext/verify_unseen.npz",
+   "group": "core",
+   "size": 279426,
+   "sha256": "1940d2a5b29724b99122f5440084d24c417e8a4da02f8024b59c8957ebc7fe19",
+   "note": "30 exact engine runs never used in training (tests)"
+  },
+  {
+   "name": "train_a",
+   "file": "train_a.npz",
+   "dest": "data/ext/train_a.npz",
+   "group": "train",
+   "size": 32912831,
+   "sha256": "fd1dfe96739a6ee99eacaa134817b4172bbcad331acbe39c150ee8295ebbeb24",
+   "note": "training runs, 60 nuclei, space-filling design (4,132 runs)"
+  },
+  {
+   "name": "train_b",
+   "file": "train_b.npz",
+   "dest": "data/ext/train_b.npz",
+   "group": "train",
+   "size": 8116113,
+   "sha256": "b13413cf3bcd30849dd1322f5d94fbd41447b1c2543de31c1857ae97158e0c11",
+   "note": "training runs, random knob points (1,020 runs)"
+  },
+  {
+   "name": "train_c",
+   "file": "train_c.npz",
+   "dest": "data/ext/train_c.npz",
+   "group": "train",
+   "size": 50956555,
+   "sha256": "e2d83d5a688cb78b8ed9f7ad5336d690602d5aeb2d9af8357ec6c703c7e17310",
+   "note": "training runs, 185 nuclei: centre, axis and Sobol points (part 1)"
+  },
+  {
+   "name": "train_d",
+   "file": "train_d.npz",
+   "dest": "data/ext/train_d.npz",
+   "group": "train",
+   "size": 49398155,
+   "sha256": "a851b8ef65503b8e4f51bc752d95bf469a746c52b63b1094cce1b08ec257afa5",
+   "note": "training runs, 185 nuclei: centre, axis and Sobol points (part 2)"
+  },
+  {
+   "name": "train_e",
+   "file": "train_e.npz",
+   "dest": "data/ext/train_e.npz",
+   "group": "train",
+   "size": 7793330,
+   "sha256": "0dd37147132dc67db43d334c0fb21082639cf6585becd3b194cbb49aea277be2",
+   "note": "training runs, extra Sobol points (part 1)"
+  },
+  {
+   "name": "train_f",
+   "file": "train_f.npz",
+   "dest": "data/ext/train_f.npz",
+   "group": "train",
+   "size": 4454307,
+   "sha256": "584c110d3ffce7ba34dcb4602b667478c6cf9eaed670cab01af36a62134cebcb",
+   "note": "training runs, extra Sobol points (part 2)"
+  },
+  {
+   "name": "train16_a",
+   "file": "train16_a.npz",
+   "dest": "data/ext/train16_a.npz",
+   "group": "knobs16",
+   "size": 8646321,
+   "sha256": "b3dd1aeb343ab5fd458d504cf641fedaddced3da01ab92fdc4ada048ec65aa2d",
+   "note": "runs for the 16-knob set (4 extra knobs; no shipped 16-knob model), part 1"
+  },
+  {
+   "name": "train16_b",
+   "file": "train16_b.npz",
+   "dest": "data/ext/train16_b.npz",
+   "group": "knobs16",
+   "size": 21481457,
+   "sha256": "d50dd3fe183231ef4f7ba66f625dc63cc25361131098ff388b5ffba906a8b1ed",
+   "note": "runs for the 16-knob set, part 2"
+  },
+  {
+   "name": "sens",
+   "file": "sens.npz",
+   "dest": "data/deliverables/sens.npz",
+   "group": "extras",
+   "size": 8456153,
+   "sha256": "ca4539cca6cb344881ea4aa5da1e1f3049f4e72b3c70d20789553f6bb411fca3",
+   "note": "exact knob sensitivities from the axis runs (no emulator)"
+  },
+  {
+   "name": "mf33_demo",
+   "file": "MF33_demo.endf",
+   "dest": "data/deliverables/MF33_demo.endf",
+   "group": "extras",
+   "size": 887922,
+   "sha256": "03ab06da3cec41d62ed275a75860c256c1d538e49b41ae0e1c0136cd150f6f24",
+   "note": "demo MF33 relative covariances from the knob prior (not a calibrated covariance)"
+  },
+  {
+   "name": "lines_P",
+   "file": "lines_P.tar.gz",
+   "dest": "data/lines_P",
+   "group": "engine",
+   "size": 1784503,
+   "sha256": "2d80c2b8f1993e9dfcccd8423e92c880eced468a2783b4eeecb62b699236fea3",
+   "note": "engine input decks V32_ZZZ_AAA.lines for exact runs (unpacked to data/lines_P)",
+   "unpack": "tar.gz"
+  }
+ ]
+}
