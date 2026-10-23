@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "incognita-emu"
-version = "0.1.0"
+version = "0.4.0"
 license = {text = "Apache-2.0"}
 description = "Fast Gaussian-process emulators of the Incognita nuclear-reaction engine (a TALYS port): neutron cross sections of 185 nuclei as functions of 12 global model knobs"
 requires-python = ">=3.10"

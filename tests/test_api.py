@@ -4,18 +4,22 @@
 U-238; uniform random u, run after training). Cells scored: sigma0 and sigma(u) > 1e-3 mb; threshold rows E < 1.5 E_thr
 (E_thr >= 100 keV) for n2n/np/na. Limits per channel: non-threshold median <= 0.010 and p95 <= 0.030 dex; threshold rows
 p95 <= 0.050 dex. The legacy models (floor 1e-5 mb) miss heavy-nucleus (n,alpha) cells near threshold (Au-197 up to 0.9 dex),
-so for them test_na_threshold_rows is xfail; for the default models it is strict."""
+so for them test_na_threshold_rows is xfail; for the default models it is strict.
+Each model set is checked against exact runs of the engine release it was trained on: default (0.4.0) ->
+verify_unseen_2026-10-19.npz (engine-2026-10-19, 20 new uniform draws of the same 5 nuclei); legacy and v0_1 (the 0.1.0 default
+models) -> verify_unseen.npz (engine-2026-10)."""
 import numpy as np
 import pytest
 from conftest import REPO, models_path
 
-EXT = REPO / "data" / "ext" / "verify_unseen.npz"
-pytestmark = pytest.mark.skipif(not EXT.exists(), reason="verify_unseen.npz absent (scripts/fetch_assets.py)")
-SETS = ["default", "legacy"]
+EXTS = {"default": REPO / "data" / "ext" / "verify_unseen_2026-10-19.npz", "legacy": REPO / "data" / "ext" / "verify_unseen.npz",
+        "v0_1": REPO / "data" / "ext" / "verify_unseen.npz"}
+SETS = ["default", "legacy", "v0_1"]
 
 
 @pytest.fixture(scope="module", params=SETS)
 def emu_set(request):
+    if not EXTS[request.param].exists(): pytest.skip(f"{EXTS[request.param].name} absent (scripts/fetch_assets.py)")
     p = models_path(request.param)
     if p is None: pytest.skip(f"models/{request.param}/models.pt absent (scripts/fetch_assets.py)")
     from incognita_emu import api
@@ -25,7 +29,7 @@ def emu_set(request):
 @pytest.fixture(scope="module")
 def errors(emu_set):
     from incognita_emu import emu
-    E = emu_set[1]; z = np.load(EXT, allow_pickle=True)
+    E = emu_set[1]; z = np.load(EXTS[emu_set[0]], allow_pickle=True)
     rid = [str(r) for r in z["rid"]]
     pick = [i for i, r in enumerate(rid) if r[:7] in ("vf00000", "vf00001", "vf00002", "vf00003")]
     assert len(pick) == 20

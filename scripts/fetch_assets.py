@@ -5,9 +5,9 @@ Default source: the GitHub release (MANIFEST "release" tag) of the repository th
 `origin`), or of INCOGNITA_EMU_RELEASE_URL (".../releases/download/<tag>/") if set; each file is checked against its sha256. `--from DIR` takes the files from a local
 directory instead (same file names as the release, e.g. a copy of the release assets). Assets with "unpack": "tar.gz" are
 unpacked to their dest directory after the check.
-Groups: core (default models, legacy models, verification runs; enough for the API and the tests), train (12-knob
-training runs), knobs16 (runs for the 16-knob set), extras (sensitivities, MF33 demo), engine (input decks for exact runs).
-usage: python scripts/fetch_assets.py [--group core|train|knobs16|extras|engine|all] [--only NAME,...] [--from DIR] [--check]"""
+Groups: core (default models, legacy models, verification runs; enough for the API and the tests), previous (the 0.1.0
+default models), train (12-knob training runs), knobs16 (runs for the 16-knob set), extras (sensitivities, MF33 demo), engine (input decks for exact runs).
+usage: python scripts/fetch_assets.py [--group core|previous|train|knobs16|extras|engine|all] [--only NAME,...] [--from DIR] [--check]"""
 import argparse, hashlib, json, os, re, shutil, subprocess, sys, tarfile, tempfile, urllib.request
 from pathlib import Path
 

@@ -7,7 +7,10 @@ knobs, in milliseconds, with Jacobians and Monte Carlo sampling on a GPU or CPU.
 
 They emulate the engine, not measurements: an error of 0.01 dex means 0.01 dex from what the engine would compute.
 
-Code: Apache-2.0 · Data and models: CC BY 4.0 · Version 0.1.0 · Trained on engine release `engine-2026-10`
+Code: Apache-2.0 · Data and models: CC BY 4.0 · Version 0.4.0 · Trained on engine release `engine-2026-10-19`
+
+New in 0.4.0: the default models are retrained on engine release `engine-2026-10-19` (every nucleus re-run); the API is
+unchanged. The 0.1.0 default models (engine `engine-2026-10`) stay available as `models/v0_1` (`--group previous`).
 
 ## How to use
 
@@ -20,12 +23,12 @@ Python ≥ 3.10 with numpy, scipy, torch, pandas and pyarrow. With [uv](https://
 git clone <repository-url> incognita-emu && cd incognita-emu
 uv venv && . .venv/bin/activate
 uv pip install -e ".[test]"
-python scripts/fetch_assets.py      # models + verification runs from this repository's GitHub release (~150 MB, sha256-checked)
+python scripts/fetch_assets.py      # models + verification runs from this repository's GitHub release (~140 MB, sha256-checked)
 pytest                              # checks the models against 20 exact engine runs they were not fitted on
 ```
 
-`fetch_assets.py --group train` (training runs), `--group extras` (sensitivities, MF33 demo), `--group engine`
-(engine input decks) or `--group all` download the rest of the release.
+`fetch_assets.py --group previous` (the 0.1.0 default models), `--group train` (training runs), `--group extras`
+(sensitivities, MF33 demo), `--group engine` (engine input decks) or `--group all` download the rest of the release.
 
 ### Python
 
@@ -74,12 +77,12 @@ parameters); the release contains engine runs for them but no 16-knob model.
 ### Exact engine runs (optional)
 
 Needed only to check the emulator, to add nuclei or to retrain. Install the engine at the release the models were
-trained on (tag `engine-2026-10`; needs [uv](https://docs.astral.sh/uv/), and gcc for the optional C kernels), then
+trained on (tag `engine-2026-10-19`; needs [uv](https://docs.astral.sh/uv/), and gcc for the optional C kernels), then
 build the TALYS structure view (TALYS data are not redistributed; this downloads the `structure` tree of the TALYS
 repository, several GB, plus one RIPL-4 file):
 
 ```bash
-bash scripts/get_engine.sh ../incognita-engine             # clone at engine-2026-10, uv sync, build C kernels
+bash scripts/get_engine.sh ../incognita-engine             # clone at engine-2026-10-19, uv sync, build C kernels
 bash scripts/make_structure.sh                             # -> cache/talys
 python scripts/fetch_assets.py --group engine              # engine input decks -> data/lines_P
 export INCOGNITA_EMU_ENGINE=$PWD/../incognita-engine INCOGNITA_EMU_TALYS_DIR=$PWD/cache/talys
@@ -101,7 +104,7 @@ python -c "from incognita_emu import api; print(api.load().compare('runs/check')
 
 | variable | meaning |
 |---|---|
-| `INCOGNITA_EMU_MODELS` | directory with models.pt (default `models/default`; older models: `models/legacy`) |
+| `INCOGNITA_EMU_MODELS` | directory with models.pt (default `models/default`; older models: `models/v0_1`, `models/legacy`) |
 | `INCOGNITA_EMU_DATA` | directory of run extracts (default `data`) |
 | `INCOGNITA_EMU_ENGINE` | engine checkout with its `.venv` |
 | `INCOGNITA_EMU_TALYS_DIR` | TALYS structure view from `scripts/make_structure.sh` |
@@ -124,18 +127,20 @@ python -m incognita_emu.emu final --ext data/ext/train_a.npz,data/ext/train_b.np
 ```
 
 Add the new key to the nucleus list first (`INCOGNITA_EMU_SPLIT` = a JSON file with keys ALL, HN, VAL, TRIO; the
-shipped one is `incognita_emu/meta/design_meta_stage1.json`). `final` without the new extract reproduces
-`models/default` (GPU, a few minutes).
+shipped one is `incognita_emu/meta/design_meta_stage1.json`). The training runs in the release were made with engine
+`engine-2026-10`: `final` without the new extract reproduces the 0.1.0 models (`models/v0_1`; GPU, a few minutes), and runs
+added to them should come from that engine release with its input decks (`lines_P.tar.gz` of release v0.1.0). The runs
+behind the 0.4.0 default models are not in the release.
 
 ## Limits
 
 The models cover the 185 nuclei in `incognita_emu/meta/design_meta_stage1.json`, the 54 energies from 1 keV to 20 MeV
 and knob points with |u| ≤ 1 (beyond that they extrapolate, unchecked). On engine runs not used for fitting, the error
-is within 0.01 dex (median) and 0.03 dex (95th percentile) on every channel away from reaction thresholds and within
-0.05 dex (95th percentile) near thresholds; the weakest cases are (n,α) near threshold for Ho-165 and Ta-181 (95th
-percentile 0.2 and 0.14 dex). Cells below 1e-3 mb are not modelled (NaN). The older `models/legacy` set is worse for
+is within 0.003 dex (median) and 0.015 dex (95th percentile) on every channel, near reaction thresholds included.
+Cells below 1e-3 mb are not modelled (NaN). The older `models/legacy` set is worse for
 heavy-nucleus (n,α) near threshold (up to 0.9 dex for Au-197). The MF33 demo propagates the knob prior only and is not a
-calibrated covariance. New exact runs reproduce the training runs bit for bit except for Ni-61, Sm-148 and Sm-154, whose
+calibrated covariance; it and the sensitivities were made with engine `engine-2026-10`.
+New exact runs reproduce the training runs bit for bit except for Ni-61, Sm-148 and Sm-154, whose
 training used measured S-function values that cannot be redistributed (their new runs differ by up to 0.04–0.26 dex).
 
 ## License and credits
